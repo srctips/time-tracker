@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>training.time-tracker</groupId>
+  <artifactId>time-tracker-parent</artifactId>
+  <packaging>pom</packaging>
+  <version>0.1.1-SNAPSHOT</version>
+  <name>Time Tracker (Parent)</name>
+  <description>
+	This is a simple Maven / Java web project.
+  </description>
+  <inceptionYear>2015</inceptionYear>
+  <url>http://maven.training/</url>
+  
+  <modules>
+	<module>core</module>
+    <module>web</module>
+  </modules>
+</project>
