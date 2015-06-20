@@ -9,27 +9,21 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import pro.jtaylor.timetracker.core.dao.TimeEntry;
 
+import java.util.List;
+
 /**
- * Created by Jason on 6/19/2015.
+ * Created by Jason on 6/20/2015.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = TrackerCoreConfig.class)
-public class TrackerTest {
+public class TrackerCoreConfigTest {
+
     @Autowired
-    private Tracker tracker;
+    List<TimeEntry> entries;
 
     @Test
     public void testMe() {
-        assertNotNull(tracker);
+        assertNotNull(entries);
     }
 
-    @Test
-    public void testAdd() {
-        TimeEntry entry = new TimeEntry();
-        entry.setDescription("Entry Test");
-        entry.setRate(80.0f);
-        entry.setTime(3);
-        tracker.add(entry);
-        assertTrue(tracker.size() > 0);
-    }
 }
