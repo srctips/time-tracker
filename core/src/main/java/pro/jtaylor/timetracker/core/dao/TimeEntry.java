@@ -17,24 +17,24 @@ public class TimeEntry {
         return description;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDescription(String value) {
+        this.description = value;
     }
 
     public float getRate() {
         return rate;
     }
 
-    public void setRate(float rate) {
-        this.rate = rate;
+    public void setRate(float value) {
+        this.rate = value;
     }
 
     public int getTime() {
         return time;
     }
 
-    public void setTime(int time) {
-        this.time = time;
+    public void setTime(int value) {
+        this.time = value;
     }
 
     @Override
