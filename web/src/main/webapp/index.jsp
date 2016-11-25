@@ -11,9 +11,9 @@
     <title>Super Simple Example Webpage</title>
 </head>
 <body>
-  <h1>Super Simple Example Web Page</h1>
+  <h1>yarevanu, Super Simple Example Web Page</h1>
   <p>
-    This is a very simple example web page on a JSP.
+    Ohoho This is a very simple example web page on a JSP.
   </p>
 </body>
 </html>
