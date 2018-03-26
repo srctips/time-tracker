@@ -6,3 +6,5 @@ Java (Maven) application for tracking time on the job
 This purpose of this project is to show how to use Maven and Jenkins together.
 
 ## Updates from Dev 1
+
+## Updated from HM for office hours session
