@@ -8,9 +8,6 @@ import pro.jtaylor.timetracker.core.dao.TimeEntry;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Jason on 6/19/2015.
- */
 @Configuration
 @ComponentScan("pro.jtaylor.timetracker.core")
 public class TrackerCoreConfig {
