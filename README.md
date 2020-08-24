@@ -8,3 +8,7 @@ This purpose of this project is to show how to use Maven and Jenkins together.
 Updates, 
 
 and more updates
+
+## Purpose 
+
+This is to check the polling
